@@ -22,7 +22,7 @@ dependencies:
     version: 0.3.4
   tiddlywiki:
     specifier: ^5.3.3
-    version: 5.3.3
+    version: 5.3.6
   uglify-js:
     specifier: ^3.17.4
     version: 3.17.4
@@ -1372,7 +1372,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.12.6
+      '@types/node': 22.12.0
     dev: false
     optional: true
 
@@ -1380,14 +1380,14 @@ packages:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 22.12.0
     dev: false
     optional: true
 
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 22.12.0
     dev: false
 
   /@types/minimist@1.2.5:
@@ -1398,6 +1398,12 @@ packages:
     resolution: {integrity: sha512-3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==}
     dependencies:
       undici-types: 5.26.5
+    dev: false
+
+  /@types/node@22.12.0:
+    resolution: {integrity: sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==}
+    dependencies:
+      undici-types: 6.20.0
     dev: false
 
   /@types/normalize-package-data@2.4.4:
@@ -1413,7 +1419,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 22.12.0
     dev: false
 
   /@types/trusted-types@2.0.7:
@@ -3742,8 +3748,8 @@ packages:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: false
 
-  /tiddlywiki@5.3.3:
-    resolution: {integrity: sha512-PkgVfZNpFFHyMmfFw91igXOJn8Z7IWg3NGXOX5EBqJwzGNeYYOIUg4FqCNsWoqBece20HxtkDue/vTf2jDtdZQ==}
+  /tiddlywiki@5.3.6:
+    resolution: {integrity: sha512-RfWt+Bo/UsTdzP5N4nEInjaJjgAzylUMf21hE4FL5v65c3x054+A+3g3sgW1m68lTJbTbiiqSZ6q6BEIZMwhSQ==}
     engines: {node: '>=0.8.2'}
     hasBin: true
     dev: false
@@ -3883,6 +3889,11 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    requiresBuild: true
+    dev: false
+
+  /undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
     requiresBuild: true
     dev: false
 
@@ -4257,5 +4268,5 @@ packages:
     hasBin: true
     optionalDependencies:
       '@types/fs-extra': 11.0.4
-      '@types/node': 20.12.6
+      '@types/node': 22.12.0
     dev: false
